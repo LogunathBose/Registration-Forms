@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(4, 74, 18);
+ }
+ 
+ .container {
+  width: 300px;
+  padding: 16px;
+  background-color: rgb(205, 241, 95);
+  margin: 0 auto;
+  margin-top: 100px;
+  border: 2px solid black;
+  border-radius: 8%;
+ }
+ 
+ label {
+  display: block;
+  margin-top: 10px;
+ }
+ 
+ input[type="text"], input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+ }
+ 
+ input[type="submit"] {
+  background-color: #0eab3d;
+  color: rgb(10, 9, 9);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+ }
+ 
+ input[type="submit"]:hover {
+  opacity: 0.8;
+ }
